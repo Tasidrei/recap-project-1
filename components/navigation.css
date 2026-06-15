@@ -1,0 +1,25 @@
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    border-top: 2px solid #000000;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+}
+
+.nav-link {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #000000;
+    padding: 0.5rem;
+}
+
+.nav-link.active {
+    background-color: #eaeaea;
+    border-radius: 4px;
+}
