@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App - Bookmarks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <h1 class="app-title">Bookmarked Questions</h1>
+    </header>
+
+    <main class="card-container">
+        <!-- Pre-Bookmarked Card 1 -->
+        <article class="question-card">
+            <button class="bookmark-btn" aria-label="Remove Bookmark">❤️</button>
+            <h2 class="card-question">What is the name of the fictional town where Gilmore Girls is set?</h2>
+            <button class="action-btn">Show Answer</button>
+            <p class="card-answer" hidden>Stars Hollow</p>
+            <ul class="tag-list">
+                <li class="tag">Gilmore Girls</li>
+                <li class="tag">Fictional Towns</li>
+                <li class="tag">TV Series</li>
+            </ul>
+        </article>
+
+        <!-- Pre-Bookmarked Card 2 -->
+        <article class="question-card">
+            <button class="bookmark-btn" aria-label="Remove Bookmark">❤️</button>
+            <h2 class="card-question">What is the name of the inn that Lorelai and Sookie run in Stars Hollow?</h2>
+            <button class="action-btn">Show Answer</button>
+            <p class="card-answer" hidden>The Dragonfly Inn</p>
+            <ul class="tag-list">
+                <li class="tag">Gilmore Girls</li>
+                <li class="tag">Locations</li>
+                <li class="tag">TV Series</li>
+            </ul>
+        </article>
+    </main>
+
+    <!-- Navbar with Bookmarks Highlighted as Active -->
+    <nav class="navbar">
+        <a href="index.html" class="nav-link" aria-label="Home">🏠</a>
+        <a href="bookmarks.html" class="nav-link active" aria-label="Bookmarks">🔖</a>
+        <a href="profile.html" class="nav-link" aria-label="Profile">👤</a>
+    </nav>
+
+</body>
+</html>
